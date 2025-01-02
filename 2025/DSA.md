@@ -9,3 +9,4 @@
 
 ## code Forces
 - [Translation](https://codeforces.com/problemset/problem/41/A)
+- [Army](https://codeforces.com/problemset/problem/38/A)
