@@ -6,6 +6,7 @@ In computer vision pixelwise **dense prediction** is the task of predicting a la
 ](https://arxiv.org/abs/1611.09288)
 
 
+
 ## Clip GeoTIFF into small patches
 - **Source URL:** <https://gis.stackexchange.com/questions/437265/clip-geotiff-into-small-patches-using-rasterio-and-patchify-python> 
   - **Python Code**
@@ -13,6 +14,7 @@ In computer vision pixelwise **dense prediction** is the task of predicting a la
     import os, rasterio
     from rasterio.windows import Window
     from shapely.geometry import box
+    import numpy as np
 
 
     def create_geopatches(
@@ -44,8 +46,12 @@ In computer vision pixelwise **dense prediction** is the task of predicting a la
             num_patches_x = (original_width - x_overlap) // (x_size - x_overlap)
             num_patches_y = (original_height - y_overlap) // (y_size - y_overlap)
             c = 0
+            print("num_patches_x :" + str(num_patches_x))  # 479
+            print("num_patches_y :" + str(num_patches_y))  # 1019
+
             patches_to_create = num_patches_x * num_patches_y
-            for i in range(num_patches_x):
+            # for i in range(num_patches_x):
+            for i in range(301, num_patches_x + 1):  # 400 done
                 for j in range(num_patches_y):
                     c += 1
                     print("Processing:", c, "of", patches_to_create, "patches")
@@ -53,9 +59,12 @@ In computer vision pixelwise **dense prediction** is the task of predicting a la
                     y_offset = j * (y_size - y_overlap)
                     w = Window(x_offset, y_offset, x_size, y_size)
                     patch = src.read(window=w)
+                    label = int(np.max(patch))
                     output_name = f"{base_name}_{i}_{j}.tif"
-                    output_dir = os.path.join(output_path, output_name)
+                    output_dir = os.path.join(output_path + str(label), output_name)
                     profile = src.meta
+                    # print(profile)
+
                     profile.update(
                         {
                             "height": y_size,
@@ -71,7 +80,8 @@ In computer vision pixelwise **dense prediction** is the task of predicting a la
 
     if __name__ == "__main__":
         create_geopatches(
-            image="./data/138.tif", 
-            x_size=16, y_size=16, 
-            output_path="./data/138",
+            image="./data/138.tif", x_size=16, y_size=16, output_path="./data/138/"
         )
+
+
+### practice : <https://courses.spatialthoughts.com/index.html>
