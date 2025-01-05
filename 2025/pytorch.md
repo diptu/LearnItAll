@@ -14,3 +14,6 @@
 ### 2025-01-04
 -[Linear Regression in PyTorch](https://datahacker.rs/003-pytorch-how-to-implement-linear-regression-in-pytorch/)
 
+### 2025-01-05
+- [Computational graph and Autograd with Pytorch](https://datahacker.rs/004-computational-graph-and-autograd-with-pytorch/)
+

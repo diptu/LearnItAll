@@ -13,3 +13,5 @@
 - [Army](https://codeforces.com/problemset/problem/38/A)
 ### 2025-01-03
 - [Borze](https://codeforces.com/problemset/problem/32/B)
+### 2025-01-05
+- [Die Roll](https://codeforces.com/problemset/problem/9/A)

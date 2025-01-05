@@ -10,3 +10,6 @@
 -[The Weight of a Stone](https://theamericanscholar.org/the-weight-of-a-stone/)
 ### 2025-01-04
 -[How Intellectuals Found God](https://www.thefp.com/p/how-intellectuals-found-god-ayaan-hirsi-ali-peter-thiel-jordan-peterson)
+
+### 2025-01-04
+- [Self Unhelped](https://sydneyreviewofbooks.com/reviews/self-unhelped)
