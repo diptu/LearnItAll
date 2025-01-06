@@ -6,5 +6,8 @@
 - THE MASTER MIND
   - “a mind that is developed through the harmonious co-operation of two or more people who ally themselves for the purpose of accomplishing any given task”
   - “You Can Do It If You Believe You Can!”
+  - “No man has a chance to enjoy permanent success until he begins to look in a mirror for “the real cause of all his mistakes" —NAPOLEON HILL
+
+
 
 
