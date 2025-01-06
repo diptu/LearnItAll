@@ -12,8 +12,10 @@
 - [PyTorch – Tensors](https://datahacker.rs/002-pytorch-what-are-tensors-in-pytorch-1-3/)
 
 ### 2025-01-04
--[Linear Regression in PyTorch](https://datahacker.rs/003-pytorch-how-to-implement-linear-regression-in-pytorch/)
-
-### 2025-01-05
 - [Computational graph and Autograd with Pytorch](https://datahacker.rs/004-computational-graph-and-autograd-with-pytorch/)
 
+### 2025-01-05
+-[Linear Regression in PyTorch](https://datahacker.rs/003-pytorch-how-to-implement-linear-regression-in-pytorch/)
+
+### 2025-01-06
+-[Logistic Regression in PyTorch](https://datahacker.rs/005-pytorch-logistic-regression-in-pytorch/)

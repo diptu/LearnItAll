@@ -4,6 +4,10 @@
 - [INTRODUCTION TO ALGORITHMS](https://www.youtube.com/watch?v=22hwcnXIGgk&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx)
 - [Array Data Structure Guide](https://www.geeksforgeeks.org/array-data-structure-guide/)
 - [Vector in C++ STL](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+  
+### 2025-01-06
+- [Top 50 Array Coding Problems for Interviews](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
+    - [Second Largest Element in an Array](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
 
 # Problem Solving
 ## code Forces
@@ -15,3 +19,5 @@
 - [Borze](https://codeforces.com/problemset/problem/32/B)
 ### 2025-01-05
 - [Die Roll](https://codeforces.com/problemset/problem/9/A)
+### 2025-01-06
+-[Taymyr is calling you](https://codeforces.com/problemset/problem/764/A)
