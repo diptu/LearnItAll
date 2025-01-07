@@ -8,6 +8,7 @@
 ### 2025-01-06
 - [Top 50 Array Coding Problems for Interviews](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
     - [Second Largest Element in an Array](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
+    - [Third largest element in an array of distinct elements](https://www.geeksforgeeks.org/third-largest-element-array-distinct-elements/)
 
 # Problem Solving
 ## code Forces
