@@ -22,3 +22,5 @@
 - [Die Roll](https://codeforces.com/problemset/problem/9/A)
 ### 2025-01-06
 -[Taymyr is calling you](https://codeforces.com/problemset/problem/764/A)
+### 2025-01-07
+- [Holiday Of Equality](https://codeforces.com/problemset/problem/758/A)
