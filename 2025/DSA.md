@@ -5,10 +5,12 @@
 - [Array Data Structure Guide](https://www.geeksforgeeks.org/array-data-structure-guide/)
 - [Vector in C++ STL](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
   
-### 2025-01-06
+### 2025-01
 - [Top 50 Array Coding Problems for Interviews](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
     - [Second Largest Element in an Array](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
     - [Third largest element in an array of distinct elements](https://www.geeksforgeeks.org/third-largest-element-array-distinct-elements/)
+    - [Maximum consecutive one's (or zeros) in a binary array](https://www.geeksforgeeks.org/maximum-consecutive-ones-or-zeros-in-a-binary-array/)
+
 
 # Problem Solving
 ## code Forces
