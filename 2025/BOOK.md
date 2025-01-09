@@ -26,9 +26,6 @@
   - “No man has a chance to enjoy permanent success until he begins to look in a mirror for “the real cause of all his mistakes" —NAPOLEON HILL
   - **Laws of Success**, is “the attainment of your Definite Chief Aim without violating the rights of other people.”
   - “six basic fears with which every person is cursed—the fear of Poverty, the fear of Ill Health, the fear of Old Age, the fear of Criticism, the fear of Loss of Love of Someone and the fear of Death”
-- “become “the master of your fate, the Captain of your Soul.”
-
-
-
-
-
+  - “become “the master of your fate, the Captain of your Soul.”
+  - “Kite” of Success generally rises AGAINST the wind of Adversity—not with it!”
+  - “Render more service than that for which you are paid and you will soon be paid for more than you render. The law of “Increasing Returns” takes care of this.”
