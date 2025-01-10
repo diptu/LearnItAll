@@ -85,3 +85,10 @@ In computer vision pixelwise **dense prediction** is the task of predicting a la
 
 
 ### practice : <https://courses.spatialthoughts.com/index.html>
+    - https://www.kaggle.com/code/adudp007/loading-tiff-image-to-numpy-array
+    - https://app.datacamp.com/learn/courses/deep-learning-for-images-with-pytorch
+
+### Image segmentation:
+- [Image Segmentation From Scratch in Pytorch](https://www.kaggle.com/code/dhananjay3/image-segmentation-from-scratch-in-pytorch)
+- [Deep Learning Part 2 2018 - Super resolution; Image segmentation with Unet](https://www.youtube.com/watch?v=nG3tT31nPmQ)
+  -[Semantic Segmentation using CNN](https://medium.com/@sharathhebbar24/semantic-segmentation-using-cnn-d35cf4a974c4)
