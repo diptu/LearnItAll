@@ -26,5 +26,8 @@
 - [Taymyr is calling you](https://codeforces.com/problemset/problem/764/A)
 ### 2025-01-07
 - [Holiday Of Equality](https://codeforces.com/problemset/problem/758/A)
-- ### 2025-01-09
+### 2025-01-09
 - [PolandBall and Hypothesis](https://codeforces.com/problemset/problem/755/A)
+### 2025-01-10
+- [New Year and Hurry](https://codeforces.com/problemset/problem/750/A)
+
