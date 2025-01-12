@@ -31,3 +31,5 @@
 ### 2025-01-10
 - [New Year and Hurry](https://codeforces.com/problemset/problem/750/A)
 
+### 2025-01-12
+- [Compote](https://codeforces.com/problemset/problem/746/A)
