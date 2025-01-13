@@ -10,6 +10,7 @@
     - [Second Largest Element in an Array](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
     - [Third largest element in an array of distinct elements](https://www.geeksforgeeks.org/third-largest-element-array-distinct-elements/)
     - [Maximum consecutive one's (or zeros) in a binary array](https://www.geeksforgeeks.org/maximum-consecutive-ones-or-zeros-in-a-binary-array/)
+    - [Move all zeros to end of array](https://www.geeksforgeeks.org/move-zeroes-end-array/)
 
 
 # Problem Solving
@@ -33,3 +34,5 @@
 
 ### 2025-01-12
 - [Compote](https://codeforces.com/problemset/problem/746/A)
+
+### 2025-01-13
