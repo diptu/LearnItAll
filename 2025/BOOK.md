@@ -29,3 +29,5 @@
   - “become “the master of your fate, the Captain of your Soul.”
   - “Kite” of Success generally rises AGAINST the wind of Adversity—not with it!”
   - “Render more service than that for which you are paid and you will soon be paid for more than you render. The law of “Increasing Returns” takes care of this.”
+  - “Every failure is a blessing in disguise, provid“ing it teaches some needed lesson 
+  one could not have learned without it. Most so-called Failures are only temporary defeats.”

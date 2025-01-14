@@ -11,6 +11,7 @@
     - [Third largest element in an array of distinct elements](https://www.geeksforgeeks.org/third-largest-element-array-distinct-elements/)
     - [Maximum consecutive one's (or zeros) in a binary array](https://www.geeksforgeeks.org/maximum-consecutive-ones-or-zeros-in-a-binary-array/)
     - [Move all zeros to end of array](https://www.geeksforgeeks.org/move-zeroes-end-array/)
+    - [Reverse an Array in groups of given size](https://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size/)
 
 
 # Problem Solving
