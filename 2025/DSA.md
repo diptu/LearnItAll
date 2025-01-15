@@ -12,6 +12,7 @@
     - [Maximum consecutive one's (or zeros) in a binary array](https://www.geeksforgeeks.org/maximum-consecutive-ones-or-zeros-in-a-binary-array/)
     - [Move all zeros to end of array](https://www.geeksforgeeks.org/move-zeroes-end-array/)
     - [Reverse an Array in groups of given size](https://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size/)
+    - [Rotate an Array](https://www.geeksforgeeks.org/array-rotation/)
 
 
 # Problem Solving
@@ -36,4 +37,6 @@
 ### 2025-01-12
 - [Compote](https://codeforces.com/problemset/problem/746/A)
 
-### 2025-01-13
+### 2025-01-15
+- [Anton and Danik](https://codeforces.com/problemset/problem/734/A)
+

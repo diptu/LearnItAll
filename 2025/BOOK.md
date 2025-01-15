@@ -31,3 +31,5 @@
   - “Render more service than that for which you are paid and you will soon be paid for more than you render. The law of “Increasing Returns” takes care of this.”
   - “Every failure is a blessing in disguise, provid“ing it teaches some needed lesson 
   one could not have learned without it. Most so-called Failures are only temporary defeats.”
+  - “Every person of learning is finally his own teacher, the reason for which is, 
+    that principles cannot be impressed upon the memory; their place of mental residence is the understanding, and they are never so lasting as when they begin by conception.”
