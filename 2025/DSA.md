@@ -37,6 +37,11 @@
 ### 2025-01-12
 - [Compote](https://codeforces.com/problemset/problem/746/A)
 
-### 2025-01-15
+### 2025-01-13
 - [Anton and Danik](https://codeforces.com/problemset/problem/734/A)
+  
+### 2025-01-14
+- [Buy a Shovel](https://codeforces.com/problemset/problem/732/A)
 
+### 2025-01-15
+- [Night at the Museum](https://codeforces.com/problemset/problem/731/A)
