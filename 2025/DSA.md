@@ -45,3 +45,9 @@
 
 ### 2025-01-15
 - [Night at the Museum](https://codeforces.com/problemset/problem/731/A)
+  
+### 2025-01-16
+- [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A)
+  
+### 2025-01-17
+- [A. One-dimensional Japanese Crossword](https://codeforces.com/contest/721/problem/A)
