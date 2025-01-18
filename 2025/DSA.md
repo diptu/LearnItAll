@@ -50,4 +50,7 @@
 - [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A)
   
 ### 2025-01-17
-- [A. One-dimensional Japanese Crossword](https://codeforces.com/contest/721/problem/A)
+- [One-dimensional Japanese Crossword](https://codeforces.com/contest/721/problem/A)
+
+### 2025-01-17
+- [Crazy Computer](https://codeforces.com/problemset/problem/716/A)
