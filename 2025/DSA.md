@@ -52,5 +52,8 @@
 ### 2025-01-17
 - [One-dimensional Japanese Crossword](https://codeforces.com/contest/721/problem/A)
 
-### 2025-01-17
+### 2025-01-18
 - [Crazy Computer](https://codeforces.com/problemset/problem/716/A)
+  
+### 2025-01-19
+- [Bus to Udayland](https://codeforces.com/problemset/problem/711/A)
