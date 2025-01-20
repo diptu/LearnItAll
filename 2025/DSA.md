@@ -57,3 +57,6 @@
   
 ### 2025-01-19
 - [Bus to Udayland](https://codeforces.com/problemset/problem/711/A)
+  
+### 2025-01-20
+- [Brain's Photos](https://codeforces.com/problemset/problem/707/A)
