@@ -15,4 +15,4 @@
 
 
 # Pytorch 
-- [Computational graph and Autograd ] (https://datahacker.rs/004-computational-graph-and-autograd-with-pytorch/)
+- [Computational graph and Autograd](https://datahacker.rs/004-computational-graph-and-autograd-with-pytorch/)
