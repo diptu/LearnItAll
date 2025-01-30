@@ -9,6 +9,7 @@
 #### Day 3 - [Reshape Matrix](https://www.deep-ml.com/problems/3)
 #### Day 4 - [Calculate Mean by Row or Column](https://www.deep-ml.com/problems/4)
 #### Day 5 - [Scalar Multiplication of a Matrix](https://www.deep-ml.com/problems/5)
+#### Day 6 - [Calculate Covariance Matrix](https://www.deep-ml.com/problems/10)
 
 # FAST API
 - [Practical Deep Learning](https://course.fast.ai/)
