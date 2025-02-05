@@ -31,3 +31,25 @@ select p.patient_id , p.patient_name ,p.conditions
  from Patients p
  where p.conditions like "DIAB1%" or p.conditions like "% DIAB1%";
 ~~~
+
+### [182. Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/?envType=problem-list-v2&envId=database)
+
+~~~SQL
+select Email from Person
+Group by Email
+Having Count(email) > 1 ;
+~~~
+### [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/?envType=problem-list-v2&envId=database)
+
+~~~SQL
+delete from person 
+where id not in (select t.minid from (select min(id) as minid from person group by email) t)
+~~~
+
+
+###[511. Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+select player_id,min(event_date) as first_login
+from activity 
+group by player_id;
+~~~
