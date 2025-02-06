@@ -92,3 +92,37 @@ LEFT JOIN EMPLOYEE AS E
 ON P.EMPLOYEE_ID= E.EMPLOYEE_ID
 GROUP BY P.PROJECT_ID;  
 ~~~
+
+### [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT query_name,round(avg(rating/position),2) as quality, 
+round(sum(rating<3)/count(*)*100,2) as  poor_query_percentage 
+from Queries 
+group by query_name
+~~~
+
+### [1251. Average Selling Price](https://leetcode.com/problems/average-selling-price/description/?envType=problem-list-v2&envId=database)
+
+# coalesce simply returns the value of the 1st non-NULL argument in its parameter list.
+~~~SQL
+select p.product_id ,ROUND(COALESCE(SUM(u.units * p.price), 0)  / COALESCE(SUM(u.units), 1), 2) AS average_price
+from Prices p 
+left join UnitsSold u on 
+p.product_id = u.product_id
+AND u.purchase_date BETWEEN p.start_date AND p.end_date
+group by p.product_id
+~~~
+
+### [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/?envType=problem-list-v2&envId=database)
+
+~~~SQL
+SELECT 
+    r.contest_id,
+    ROUND(COUNT(DISTINCT r.user_id) * 100.0 / (SELECT COUNT(*) FROM Users), 2) AS percentage
+FROM 
+    Register r
+GROUP BY 
+    r.contest_id
+ORDER BY 
+    percentage DESC, r.contest_id ASC;
+~~~
