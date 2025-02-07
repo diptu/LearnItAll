@@ -156,3 +156,14 @@ ORDER BY
     travelled_distance DESC, 
     u.name ASC;
 ~~~
+
+### [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+select p.product_name, sum(o.unit) as unit
+from Orders o
+join Products p
+on o.product_id=p.product_id
+where o.order_date>='2020-02-01' and o.order_date<='2020-02-29'
+group by p.product_name
+having sum(o.unit)>=100
+~~~
