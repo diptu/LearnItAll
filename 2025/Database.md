@@ -126,3 +126,33 @@ GROUP BY
 ORDER BY 
     percentage DESC, r.contest_id ASC;
 ~~~
+
+### [1407. Top Travellers](https://leetcode.com/problems/top-travellers/?envType=problem-list-v2&envId=database)
+~~~SQL
+
+select name, 
+sum(
+    case when u.id = r.user_id 
+        then distance
+        else 0 
+    end) as travelled_distance
+from users u
+left join rides r
+on u.id = r.user_id
+group by u.id
+order by travelled_distance desc, name asc
+
+# Alternnative solution
+SELECT 
+    u.name, 
+    COALESCE(SUM(r.distance), 0) AS travelled_distance
+FROM 
+    Users u
+LEFT JOIN 
+    Rides r ON u.id = r.user_id
+GROUP BY 
+    u.id, u.name
+ORDER BY 
+    travelled_distance DESC, 
+    u.name ASC;
+~~~
