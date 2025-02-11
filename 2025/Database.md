@@ -1,6 +1,6 @@
 # Desing
 ## https://leetcode.com/problem-list/database/
-
+<!-- advance SQL : https://www.youtube.com/watch?v=ch520NKjHOg&list=PLGAnLqlBhx1H2ttudV4JeHotbvpbR7HQQ -->
 #### [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/?envType=problem-list-v2&envId=database)
 ~~~SQL
 select firstName, lastName, city, state from Person 
@@ -166,4 +166,37 @@ on o.product_id=p.product_id
 where o.order_date>='2020-02-01' and o.order_date<='2020-02-29'
 group by p.product_name
 having sum(o.unit)>=100
+~~~
+### [1587. Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT name, SUM(amount) AS balance
+FROM Users AS u
+LEFT JOIN Transactions AS t
+ON u.account = t.account
+GROUP BY 1
+HAVING balance > 10000;
+# Alternnative solution
+WITH cte
+as (
+select u.name as NAME,sum(t.amount) as BALANCE
+from Transactions as t
+inner join Users as u on
+t.account = u.account
+group by NAME
+having sum(t.amount)> 10000
+)
+select * from cte;
+~~~
+### [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/description/?envType=problem-list-v2&envId=database)
+~~~SQL 
+SELECT 
+    sell_date,
+    COUNT(DISTINCT product) AS num_sold,
+    GROUP_CONCAT(DISTINCT product ORDER BY product ASC SEPARATOR ',') AS products
+FROM 
+    Activities
+GROUP BY 
+    sell_date
+ORDER BY 
+    sell_date;
 ~~~
