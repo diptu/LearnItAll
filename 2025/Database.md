@@ -200,3 +200,20 @@ GROUP BY
 ORDER BY 
     sell_date;
 ~~~
+
+### [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT v.customer_id,
+    count(v.visit_id) count_no_trans
+FROM Visits v
+LEFT JOIN Transactions t ON v.visit_id = t.visit_id
+WHERE t.transaction_id IS NULL
+GROUP BY 1
+ORDER BY 2
+
+# Alternnative solution
+select customer_id, count(visit_id) as count_no_trans
+from Visits 
+where visit_id not in (select visit_id from Transactions)
+group by customer_id;
+~~~
