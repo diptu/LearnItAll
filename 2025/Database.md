@@ -240,3 +240,10 @@ select name
 from customer 
 where referee_id !=2 or referee_id is null;
 ~~~
+### [586. Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT customer_number
+FROM Orders
+GROUP BY customer_number
+ORDER BY count(customer_number) DESC LIMIT 1;
+~~~
