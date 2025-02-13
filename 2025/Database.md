@@ -233,3 +233,10 @@ INNER JOIN Weather w2
 ON w1.recordDate = DATE_ADD(w2.recordDate, INTERVAL 1 DAY)
 WHERE w1.temperature > w2.temperature;
 ~~~
+
+### [84. Find Customer Referee](https://leetcode.com/problems/find-customer-referee/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+select name 
+from customer 
+where referee_id !=2 or referee_id is null;
+~~~
