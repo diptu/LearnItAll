@@ -247,3 +247,12 @@ FROM Orders
 GROUP BY customer_number
 ORDER BY count(customer_number) DESC LIMIT 1;
 ~~~
+### [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+select x,y,z, 
+case 
+    when x+y>z and y+z>x and z+x>y 
+    then 'Yes' 
+    else 'No' 
+end as triangle from triangle;
+~~~
