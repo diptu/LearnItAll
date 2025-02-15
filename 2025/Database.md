@@ -263,3 +263,49 @@ FROM ActorDirector
 GROUP BY actor_id, director_id
 HAVING COUNT(*) > 2
 ~~~
+### [619. Biggest Single Number](https://leetcode.com/problems/biggest-single-number/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT max(num) AS num
+FROM (
+	SELECT num
+	FROM MyNumbers
+	GROUP BY num
+	HAVING count(*) = 1
+	) t
+~~~
+### [627. Swap Salary](https://leetcode.com/problems/swap-salary/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+Update salary
+SET
+    sex = CASE sex
+    WHEN 'm' THEN 'f'
+    ELSE 'm'
+END;
+~~~
+### [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT max(salary) AS SecondHighestSalary
+FROM employee
+WHERE salary < (
+		SELECT max(salary)
+		FROM employee
+		);
+
+~~~
+
+### [177. Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+CREATE FUNCTION getNthHighestSalary (N INT)
+RETURNS INT
+
+BEGIN
+	SET N = N - 1;
+
+	RETURN (
+			SELECT DISTINCT salary
+			FROM Employee
+			ORDER BY salary DESC LIMIT 1 OFFSET N
+			);
+END
+
+~~~
