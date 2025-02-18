@@ -319,3 +319,40 @@ FROM Scores
 ORDER BY score DESC;
 
 ~~~
+### [1068. Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT 
+    p.product_name,
+    s.year,
+    s.price
+FROM sales AS s
+LEFT JOIN product AS b 
+ON s.product_id = p.product_id
+
+~~~
+
+### [1179. Reformat Department Table](https://leetcode.com/problems/reformat-department-table/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT id,
+SUM(IF(month='Jan', revenue, NULL)) AS Jan_Revenue,
+SUM(IF(month='Feb', revenue, NULL)) AS Feb_Revenue,
+SUM(IF(month='Mar', revenue, NULL)) AS Mar_Revenue,
+SUM(IF(month='Apr', revenue, NULL)) AS Apr_Revenue,
+SUM(IF(month='May', revenue, NULL)) AS May_Revenue,
+SUM(IF(month='Jun', revenue, NULL)) AS Jun_Revenue,
+SUM(IF(month='Jul', revenue, NULL)) AS Jul_Revenue,
+SUM(IF(month='Aug', revenue, NULL)) AS Aug_Revenue,
+SUM(IF(month='Sep', revenue, NULL)) AS Sep_Revenue,
+SUM(IF(month='Oct', revenue, NULL)) AS Oct_Revenue,
+SUM(IF(month='Nov', revenue, NULL)) AS Nov_Revenue,
+SUM(IF(month='Dec', revenue, NULL)) AS Dec_Revenue
+FROM Department
+Group BY id;
+~~~
+### [1148. Article Views I](https://leetcode.com/problems/article-views-i/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT DISTINCT author_id AS id
+FROM VIEWS
+WHERE author_id = viewer_id
+ORDER BY id ASC;
+~~~
