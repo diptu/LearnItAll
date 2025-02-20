@@ -396,4 +396,28 @@ GROUP BY p.product_id
 HAVING 
     MIN(s.sale_date) >= '2019-01-01' 
     AND MAX(s.sale_date) <= '2019-03-31';
-~~~~
+~~~
+
+### [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT 
+    students.student_id,
+    students.student_name,
+    s.subject_name,
+    count(e.subject_name) AS attended_exams
+FROM students
+INNER JOIN subjects s
+LEFT JOIN examinations e ON e.student_id = students.student_id
+	AND s.subject_name = e.subject_name
+GROUP BY 1
+	,3
+ORDER BY 1 ASC
+~~~
+### [1693. Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+select date_id, make_name, 
+        count(distinct lead_id) unique_leads, 
+        count(distinct partner_id) unique_partners
+from DailySales
+group by date_id, make_name
+~~~
