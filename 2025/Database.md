@@ -356,3 +356,44 @@ FROM VIEWS
 WHERE author_id = viewer_id
 ORDER BY id ASC;
 ~~~
+### [184. Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT d.Name AS Department, e.Name As Employee, e.Salary AS Salary
+FROM Employee AS e
+LEFT JOIN Department AS d
+ON e.DepartmentId = d.Id
+WHERE (d.Id, e.Salary) in (SELECT DepartmentId, max(Salary)
+FROM Employee
+GROUP BY DepartmentId)
+
+
+#Alternnative solution
+
+SELECT Department
+	,NAME AS "Employee"
+	,salary AS "Salary"
+FROM (
+	SELECT d.NAME AS "Department"
+		,e.salary
+		,e.NAME
+		,dense_rank() OVER (
+			PARTITION BY e.departmentid ORDER BY e.salary DESC
+			) AS salary_rank
+	FROM employee e
+	INNER JOIN department d ON e.departmentid = d.id
+	) AS TEMP
+WHERE salary_rank = 1
+
+~~~
+
+### [1084. Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT p.product_id, p.product_name
+FROM Product AS p
+JOIN Sales AS s 
+ON p.product_id = s.product_id
+GROUP BY p.product_id
+HAVING 
+    MIN(s.sale_date) >= '2019-01-01' 
+    AND MAX(s.sale_date) <= '2019-03-31';
+~~~~
