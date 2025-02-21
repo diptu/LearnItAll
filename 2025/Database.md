@@ -475,3 +475,22 @@ select product_id,'store3' as store, store3 as price
 from products
 where store3 is not null
 ~~~
+### [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT e1.employee_id, e1.name, COUNT(e1.employee_id) AS reports_count, ROUND(AVG(e2.age)) AS average_age
+FROM Employees e1, Employees e2
+WHERE e1.employee_id = e2.reports_to
+GROUP BY e1.employee_id
+ORDER BY employee_id
+~~~
+
+### [1873. Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+Select employee_id, 
+Case when employee_id % 2 <> 0 and
+    substring(name,1,1) <> 'M' then salary
+else 0
+END as bonus
+from employees
+order by employee_id
+~~~
