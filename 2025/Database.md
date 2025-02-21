@@ -421,3 +421,57 @@ select date_id, make_name,
 from DailySales
 group by date_id, make_name
 ~~~
+### [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count/description/?envType=problem-list-v2&envId=database)
+
+~~~SQL
+SELECT user_id,COUNT(user_id) AS followers_count
+FROM followers
+GROUP BY user_id
+ORDER BY user_id
+~~~
+## [1741. Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+select 
+    event_day as day,
+    emp_id, 
+    sum(out_time - in_time) as total_time 
+from Employees 
+group by emp_id,event_day
+~~~
+### [1789. Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+select employee_id, department_id 
+from Employee
+where primary_flag = 'Y' or employee_id in (
+    select employee_id 
+    from Employee
+    group by employee_id
+    having count(employee_id) = 1
+)
+~~~
+### [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT product_id FROM Products
+WHERE low_fats = 'Y' AND recyclable = 'Y' ;
+~~~
+### [1141. User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+SELECT activity_date AS day, COUNT(DISTINCT user_id) AS active_users
+FROM Activity
+WHERE (activity_date > "2019-06-27" AND activity_date <= "2019-07-27")
+GROUP BY activity_date;
+~~~
+### []()
+~~~SQL
+select product_id, 'store1' as store,store1 as price
+from products
+where store1 is not null
+union
+select product_id, 'store2' as store,store2 as price
+from products
+where store2 is not null
+union
+select product_id,'store3' as store, store3 as price
+from products
+where store3 is not null
+~~~
