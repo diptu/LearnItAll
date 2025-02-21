@@ -60,3 +60,6 @@
   
 ### 2025-01-20
 - [Brain's Photos](https://codeforces.com/problemset/problem/707/A)
+
+### 2025-02-21
+- [Hulk](https://codeforces.com/problemset/problem/705/A)
