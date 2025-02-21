@@ -461,7 +461,7 @@ FROM Activity
 WHERE (activity_date > "2019-06-27" AND activity_date <= "2019-07-27")
 GROUP BY activity_date;
 ~~~
-### []()
+### [1795. Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/description/?envType=problem-list-v2&envId=database)
 ~~~SQL
 select product_id, 'store1' as store,store1 as price
 from products
