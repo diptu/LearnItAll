@@ -63,3 +63,6 @@
 
 ### 2025-02-21
 - [Hulk](https://codeforces.com/problemset/problem/705/A)
+  
+### 2025-02-22
+- [Mishka and Game](https://codeforces.com/problemset/problem/703/A)
