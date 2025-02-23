@@ -517,3 +517,22 @@ AND a2.activity_type='end'
 AND a1.timestamp<a2.timestamp
 GROUP BY a1.machine_id;
 ~~~
+
+### [378. Replace Employee ID With The Unique Identifier]()
+~~~SQL
+select 
+    eu.unique_id, 
+    e.name 
+from Employees e 
+left join EmployeeUNI eu on 
+e.id = eu.id
+~~~
+### [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/description/?envType=problem-list-v2&envId=database)
+
+~~~SQL
+select 
+    user_id, 
+    concat(Upper(left(name,1)),
+    lower(right(name,length(name)-1))) 
+as name from users order by 1
+~~~

@@ -66,3 +66,6 @@
   
 ### 2025-02-22
 - [Mishka and Game](https://codeforces.com/problemset/problem/703/A)
+  
+### 2025-02-23
+- [Maximum Increase](https://codeforces.com/problemset/problem/702/A)
