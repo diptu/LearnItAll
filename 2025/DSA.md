@@ -69,3 +69,6 @@
   
 ### 2025-02-23
 - [Maximum Increase](https://codeforces.com/problemset/problem/702/A)
+
+### 2025-02-24
+- [A. Opponents](https://codeforces.com/problemset/problem/688/A)
