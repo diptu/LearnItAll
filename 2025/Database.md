@@ -536,3 +536,30 @@ select
     lower(right(name,length(name)-1))) 
 as name from users order by 1
 ~~~
+
+### [1965. Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/description/?envType=problem-list-v2&envId=database)
+
+~~~SQL
+(SELECT E.employee_id
+FROM Employees E
+LEFT JOIN Salaries S on E.employee_id = S.employee_id
+WHERE S.salary IS NULL
+UNION
+
+SELECT S.employee_id
+FROM Employees E
+RIGHT JOIN Salaries S on E.employee_id = S.employee_id
+WHERE E.name IS NULL)
+ORDER BY employee_id
+~~~
+### [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/description/?envType=problem-list-v2&envId=database)
+~~~SQL
+select 
+    employee_id 
+from Employees 
+where salary<30000 
+and manager_id not in (
+    select employee_id from Employees
+    ) 
+order by employee_id;
+~~~
