@@ -72,3 +72,12 @@
 
 ### 2025-02-24
 - [A. Opponents](https://codeforces.com/problemset/problem/688/A)
+
+### 2025-02-25
+- [A.  Free Ice Cream](https://codeforces.com/problemset/problem/686/A)
+
+
+
+# Leetcode
+### 2025-03-08
+- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/?envType=problem-list-v2&envId=stack)
