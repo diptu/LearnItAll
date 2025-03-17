@@ -80,4 +80,11 @@
 
 # Leetcode
 ### 2025-03-08
+**Stack**
 - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/?envType=problem-list-v2&envId=stack)
+### 2025-03-17
+ **Two Pointer**
+- [ 26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=two-pointers)
+- [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/?envType=problem-list-v2&envId=two-pointers)
+- [27. Remove Element](https://leetcode.com/problems/remove-element/description/?envType=problem-list-v2&envId=two-pointers)
+- [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/?envType=study-plan-v2&envId=top-interview-150)
