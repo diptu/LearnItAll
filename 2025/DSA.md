@@ -104,3 +104,6 @@
 ### Hash Table
 **2025-03-18**
 - [169. Majority Element](https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150)
+### Linked List
+**2025-03-22**
+- [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
