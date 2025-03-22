@@ -104,6 +104,14 @@
 ### Hash Table
 **2025-03-18**
 - [169. Majority Element](https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150)
+**2025-0-22**
+- [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
 ### Linked List
 **2025-03-22**
 - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+### Array
+**2025-03-22**
+- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=study-plan-v2&envId=top-interview-150)
+### Math
+**2025-03-22**
+- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
