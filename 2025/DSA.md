@@ -102,16 +102,25 @@
 - [51. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
 
 ### Hash Table
+
 **2025-03-18**
 - [169. Majority Element](https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150)
+
 **2025-0-22**
 - [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
-### Linked List
-**2025-03-22**
-- [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+
 **2025-03-23**
 - [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)
 - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
+
+**2025-03-24**
+- [383. Ransom Note](https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150)
+  
+
+### Linked List
+**2025-03-22**
+- [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+
 
 ### Array
 **2025-03-22**
