@@ -118,7 +118,7 @@
 
 **2025-03-25**
 - [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/?envType=study-plan-v2&envId=top-interview-150)
-
+- [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/?envType=study-plan-v2&envId=top-interview-150)
 
 ### Linked List
 **2025-03-22**
