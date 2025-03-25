@@ -115,7 +115,10 @@
 
 **2025-03-24**
 - [383. Ransom Note](https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150)
-  
+
+**2025-03-25**
+- [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/?envType=study-plan-v2&envId=top-interview-150)
+
 
 ### Linked List
 **2025-03-22**
