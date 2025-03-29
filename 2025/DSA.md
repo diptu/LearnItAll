@@ -141,6 +141,11 @@
 
 **2025-03-29**
 - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+
+**2025-03-30**
+- [55. Jump Game](https://leetcode.com/problems/jump-game/description/)
+
+
 ### Math
 **2025-03-22**
 - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
